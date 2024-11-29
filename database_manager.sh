@@ -148,7 +148,7 @@ function welcome() {
 
   ADDITIONAL_TEXT=$(cat <<EOT
     $(ColorYellow "To learn more about how to use ITI DBMS$BLUE")
-    $(ColorYellow "go to https://github.com/polybar/polybar$BLUE")
+    $(ColorYellow "go to https://github.com/nada19885/DBMS-ITI.git$BLUE")
 
     $(ColorYellow "The README contains a lot of information.$BLUE")
     $(ColorYellow "Authors: Nada Maher, Yoser Yasser$BLUE")
