@@ -30,7 +30,7 @@ This project is a simple **Database Management System (DBMS)** implemented in Ba
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/nada19885/DBMS-ITI.git
    cd bash-database-management-system
    ```
 
