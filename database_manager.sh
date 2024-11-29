@@ -295,7 +295,6 @@ function validate_database_creation() {
 #--------------------------------------------------------------------
 
 
-# Function to list all databases
 function list_databases() {
     # dir='.'  # Path of the current directory
     # echo "List of all databases ending with .db in the current directory:"
@@ -313,7 +312,7 @@ function list_databases() {
 
 
     databases=($(getDirs))
-    if [[ "${#databases[@]}" -le 1 ]]; then
+    if [[ "${#databases[@]}" -eq 0 ]]; then
         echo -e "$(ColorRed "No databases found ending with .db")"
     else
         {
